@@ -127,6 +127,26 @@
     pointer-events: none;
   }
 
+  a.link-button.featured {
+    flex-direction: column;
+    gap: 4px;
+    background: #1F1D1B;
+    border-color: #1F1D1B;
+    color: #F3EEE6;
+    padding: 18px 20px;
+  }
+
+  a.link-button.featured:hover {
+    border-color: var(--accent);
+  }
+
+  a.link-button.featured .small {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+  }
+
   footer {
     text-align: center;
     margin-top: 40px;
@@ -148,10 +168,17 @@
     <header>
       <div class="monogram">YK</div>
       <h1>YoliaKnittings</h1>
-      <p class="tagline">Original hand-crocheted lace gloves from Biržai, Lithuania</p>
+      <p class="tagline">Original lace gloves, hand-crocheted by me</p>
     </header>
 
     <nav>
+      <p class="section-label">New pattern</p>
+
+      <a class="link-button featured" href="https://yoliaknittings-daily-grace.lovable.app/" target="_blank" rel="noopener">
+        <span>Silk Fingerless Gloves — Crochet Pattern (PDF)</span>
+        <span class="small">$9 · Instant download</span>
+      </a>
+
       <p class="section-label">Shop on Etsy</p>
 
       <a class="link-button" href="https://www.etsy.com/shop/YoliaKnittings?ref=seller-platform-mcnav&amp;section_id=56045218" target="_blank" rel="noopener">
